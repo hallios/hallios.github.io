@@ -1,2 +1,2 @@
 # hallios.github.io
-hallios.org website
+hallios CTF team
