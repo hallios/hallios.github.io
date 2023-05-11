@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name                    = "hallios-gary"
+  spec.name                    = "hallios"
   spec.version                 = "0.1"
   spec.authors                 = ["Garrett Stimpson"]
 

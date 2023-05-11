@@ -11,8 +11,8 @@
 # Copyright (c) 2023 Halli0s
 # Licensed under the MIT License. See https://github.com/hallios for details.
 
-theme: "halli0s1"
-remote_theme: "halli0s1"
+theme: "hallios"
+remote_theme: "hallios"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -106,7 +106,7 @@ analytics:
 author:
   name: "Garrett"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: ""Halli0s is a leading cybersecurity company that provides cutting-edge solutions to protect businesses and organizations from online threats."
+  bio: "Halli0s is a leading cybersecurity company that provides cutting-edge solutions to protect businesses and organizations from online threats."
   location: "Toronto, Ontario"
   email:
   links:
