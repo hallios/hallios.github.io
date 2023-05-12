@@ -11,8 +11,8 @@
 # Copyright (c) 2023 Halli0s
 # Licensed under the MIT License. See https://github.com/hallios for details.
 
-theme: "hallios"
-remote_theme: "hallios"
+#theme: "hallios"
+#remote_theme: "hallios"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
