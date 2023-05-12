@@ -1,0 +1,40 @@
+/*!
+Halli0s Web App by gary23w
+Copyright (c) 2023 Halli0s
+Licensed under the MIT License. See https://github.com/hallios for details.
+*/
+
+/* Variables */
+@import "hallios/variables";
+
+/* Mixins and functions */
+@import "hallios/vendor/breakpoint/breakpoint";
+@include breakpoint-set("to ems", true);
+@import "hallios/vendor/magnific-popup/magnific-popup"; // Magnific Popup
+@import "hallios/vendor/susy/susy";
+@import "hallios/mixins";
+
+/* Core CSS */
+@import "hallios/reset";
+@import "hallios/base";
+@import "hallios/forms";
+@import "hallios/tables";
+@import "hallios/animations";
+
+/* Components */
+@import "hallios/buttons";
+@import "hallios/notices";
+@import "hallios/masthead";
+@import "hallios/navigation";
+@import "hallios/footer";
+@import "hallios/search";
+@import "hallios/syntax";
+
+/* Utility classes */
+@import "hallios/utilities";
+
+/* Layout specific */
+@import "hallios/page";
+@import "hallios/archive";
+@import "hallios/sidebar";
+@import "hallios/print";

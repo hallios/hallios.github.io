@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Talk to Brad"
+    url: mailto:brad.stimpson@gmail.com
+  - title: "About"
+    url: https://github.com/hallios
+  - title: "Sample Posts"
+    url: /year-archive/
+  - title: "Sample Collections"
+    url: /collection-archive/
+  - title: "Sitemap"
+    url: /sitemap/
