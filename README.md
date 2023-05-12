@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Hallios Webapp - README
 
 This README document provides information on how to serve the Hallios web application using Jekyll.
@@ -42,4 +41,3 @@ This will start a local server with livereload enabled.
 =======
 # hallios.github.io
 hallios CTF team
->>>>>>> main
