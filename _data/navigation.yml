@@ -4,9 +4,9 @@ main:
     url: mailto:info@hallios.com
   - title: "About"
     url: https://github.com/hallios
-  - title: "Sample Posts"
+  - title: "Posts"
     url: /year-archive/
-  - title: "Sample Collections"
+  - title: "Collections"
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
