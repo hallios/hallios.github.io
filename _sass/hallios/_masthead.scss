@@ -4,12 +4,20 @@
 
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  @if variable-exists(border-color) {
+    border-bottom: 1px solid $border-color;
+  }
+  @if variable-exists(header-border-color) {
+    border-bottom: $header-border-color;
+  }
+  @if variable-exists(header-background-color) {
+    background-color: $header-background-color;
+  }
 
   &__inner-wrap {
     @include clearfix;
@@ -51,11 +59,17 @@
   align-self: center;
   font-weight: bold;
   // z-index: 20;
+  @if variable-exists(site-title-color) {
+    color: $site-title-color !important;
+  }
 }
 
 .site-subtitle {
   display: block;
   font-size: $type-size-8;
+  @if variable-exists(site-subtitle-color) {
+    color: $site-subtitle-color !important;
+  }
 }
 
 .masthead__menu {

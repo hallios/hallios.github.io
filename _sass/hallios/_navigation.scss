@@ -177,7 +177,6 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: $background-color;
 
   a {
     display: block;
@@ -236,6 +235,9 @@
 
     a {
       position: relative;
+      @if variable-exists(header-texts-color) {
+        color: $header-texts-color;
+      }
 
       &:before {
         content: "";
