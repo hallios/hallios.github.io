@@ -11,7 +11,7 @@
   display: inline-block;
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
-  font-family: $sans-serif;
+  font-family: $global-font-family;
   font-size: $type-size-6;
   font-weight: bold;
   text-align: center;
@@ -29,17 +29,11 @@
   }
 
   /* button colors */
-  $buttoncolors:
-  (primary, $primary-color),
-  (inverse, #fff),
-  (light-outline, transparent),
-  (success, $success-color),
-  (warning, $warning-color),
-  (danger, $danger-color),
-  (info, $info-color),
-  (facebook, $facebook-color),
-  (twitter, $twitter-color),
-  (linkedin, $linkedin-color);
+  $buttoncolors: (primary, $primary-color), (inverse, #fff),
+    (light-outline, transparent), (success, $success-color),
+    (warning, $warning-color), (danger, $danger-color), (info, $info-color),
+    (facebook, $facebook-color), (twitter, $twitter-color),
+    (linkedin, $linkedin-color);
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {

@@ -45,13 +45,13 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $global-font-family;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
 
   a[rel="permalink"]::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -102,7 +102,7 @@
   margin: 0 auto;
   padding: 2px 5px;
   color: #fff;
-  font-family: $caption-font-family;
+  font-family: $global-font-family;
   font-size: $type-size-8;
   background: #000;
   text-align: right;
@@ -285,7 +285,7 @@
   }
 
   a.btn::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0;
     top: 0;
@@ -311,7 +311,7 @@
     }
 
     a.btn::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -352,7 +352,7 @@
     }
 
     a.btn::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -396,7 +396,7 @@
     }
 
     a.btn::before {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -442,7 +442,7 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -457,7 +457,7 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }
