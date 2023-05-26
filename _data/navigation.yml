@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "Email"
-    url: mailto:info@hallios.com
   - title: "About"
-    url: https://github.com/hallios
+    url: /about/
+  - title: "Members"
+    url: /members/
   - title: "Posts"
     url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "Challenges"
+    url: /challenges/

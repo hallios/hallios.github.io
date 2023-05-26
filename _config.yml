@@ -13,7 +13,7 @@
 
 #theme: "hallios"
 #remote_theme: "hallios"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name: "Garrett"
+  # name: ""
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "Halli0s is a leading cybersecurity company that provides cutting-edge solutions to protect businesses and organizations from online threats."
   location: "Toronto, Ontario"
@@ -261,6 +261,9 @@ tag_archive:
 
 collections:
   docs:
+    output: true
+    permalink: /:collection/:path/
+  members:
     output: true
     permalink: /:collection/:path/
 
