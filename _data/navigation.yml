@@ -1,7 +1,6 @@
 # main links
 main:
   - title: "About"
-<<<<<<< HEAD
     url: /about/
   - title: "Members"
     url: /members/
@@ -9,12 +8,3 @@ main:
     url: /year-archive/
   - title: "Challenges"
     url: /challenges/
-=======
-    url: https://github.com/hallios
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
->>>>>>> main
