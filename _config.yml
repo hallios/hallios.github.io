@@ -13,7 +13,7 @@
 
 #theme: "hallios"
 #remote_theme: "hallios"
-minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "hallios1" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "hallios1", "hallios2", "hallios3"
 
 # Site Settings
 locale: "en-US"
@@ -258,14 +258,6 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:path/
-  members:
-    output: true
-    permalink: /:collection/:path/
 
 # HTML Compression
 # - https://jch.penibelst.de/
