@@ -19,7 +19,7 @@ minimal_mistakes_skin: "hallios1" # "air", "aqua", "contrast", "dark", "dirt", "
 locale: "en-US"
 title: "halli0s"
 title_separator: "-"
-subtitle: "Your security is our top priority" # site tagline that appears below site title in masthead
+subtitle: "" # site tagline that appears below site title in masthead
 name: "halli0s"
 description: "Halli0s is a leading cybersecurity company that provides cutting-edge solutions to protect businesses and organizations from online threats."
 url: # the base hostname & protocol for your site
@@ -222,6 +222,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -230,6 +231,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # Archives
 #  Type

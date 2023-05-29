@@ -2,8 +2,7 @@
 title: About Us
 permalink: /about/
 layout: collection
-entries_layout: grid
-classes: wide
+author_profile: true
 ---
 
 Welcome to the official page of halli0s, your one-stop solution for all your cyber security needs.
