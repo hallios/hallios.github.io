@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-Here lies our spectaculor list of members.
+H3r3 l13s 0ur sp3ctacul0r l1st 0f m3mb3rs.
