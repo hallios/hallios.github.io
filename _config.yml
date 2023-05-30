@@ -1,18 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Halli0s Web App by gary23w
-# Copyright (c) 2023 Halli0s
-# Licensed under the MIT License. See https://github.com/hallios for details.
-
-#theme: "hallios"
-#remote_theme: "hallios"
 minimal_mistakes_skin: "hallios1" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "hallios1", "hallios2", "hallios3"
 
 # Site Settings
