@@ -1,5 +1,6 @@
 ---
 title: Official halli0s mission statement.
+description: lurk in its shadows - cyber bandits, pixel pirates, and those devious critters that dwell in the code.
 categories:
   - mission
 tags:
