@@ -6,7 +6,7 @@ title: "halli0s"
 title_separator: "-"
 subtitle: "" # site tagline that appears below site title in masthead
 name: "halli0s"
-description: "Halli0s is a leading cybersecurity company that provides cutting-edge solutions to protect businesses and organizations from online threats."
+description: "Halli0s is a leading cybersecurity community that grows cybersecurity experts through learning, practice, and CTFs!"
 url: # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name
